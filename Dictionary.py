@@ -4,6 +4,8 @@ Project 1 - Dictionary
 Fill in your code in this file!
 """
 
+import random ## NO MORE PACKAGE. ADDITION IMPORT STATEMENT WILL FAIL THE AUTOGRADER
+
 PUNC = "’!()-[]{};:’\"\,<>./?@#$%^&*_~’" # this is a constant that you might use in this project.
 
 class Dictionary:
@@ -11,58 +13,41 @@ class Dictionary:
         self.words = []  # store all your words here
 
     def insert(self, word, position):
-        """
-
-        :param word:
-        :param position:
-        :return:
-        """
         pass
 
     def shuffle(self):
-        """
-
-        :return:
-        """
         pass
 
     def loadFromFile(self, filename):
-        """
-
-        :param filename:
-        :return:
-        """
         pass
 
 
     def linearSearch(self, word):
-        """
-
-        :param word:
-        :return:
-        """
         pass
 
     def binarySearch(self, word):
-        """
-
-        :param word:
-        :return:
-        """
         pass
 
     def insertionSort(self):
-        """
+        pass
 
-        :return:
-        """
+    def enhancedInsertionSort(self):
         pass
 
     def spellCheck(self, sentence):
-        """
-
-        :param sentence:
-        :return:
-        """
         pass
+
+    @staticmethod
+    def sortSequence(sequence):
+        pass
+
+    def anagrams(self, sequence):
+        pass
+
+    def crackLock(self, wheels):
+        pass
+
+
+## No more testing code in this file
+## To modify the testcase, go to test_dictionary.py file.
 
