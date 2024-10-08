@@ -1,4 +1,4 @@
-from Dictionary import Dictionary
+from dictionary import Dictionary
 import string
 
 def is_sorted(alist):
